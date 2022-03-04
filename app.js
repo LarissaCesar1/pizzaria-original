@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const PizzasRouter = require('./routes/PizzasRouter');
 
 app.get('/', (req, res) => {
     res.send("Olá visitante!")
