@@ -28,41 +28,41 @@ Fase 2 - Criação da aplicação (Criado o sevidor web no app.js):
 
 
 Fase 3 - Instalação do nodemon e configuração para auto restart:
-    ☐ Instale o nodemon no projeto como dependência de desenvolvimento
+    ✔ Instale o nodemon no projeto como dependência de desenvolvimento @done(22-03-04 17:19)
     https://pt.stackoverflow.com/questions/163785/qual-a-diferen%C3%A7a-entre-dependencies-e-devdependencies
 
-    ☐ Altere o package.json:
-        ☐ Acrescente uma propriedade "start" ao objeto "scripts".
-        ☐ A propriedade start deve conter a string "nodemon app.js"
-    ☐ Execute o comando npm start no console.
+    ✔ Altere o package.json: @done(22-03-04 17:20)
+        ✔ Acrescente uma propriedade "start" ao objeto "scripts". @done(22-03-04 17:20)
+        ✔ A propriedade start deve conter a string "nodemon app.js" @done(22-03-04 17:20)
+    ✔ Execute o comando npm start no console. @done(22-03-04 17:20)
 
     Verificações:
-        ☐ Veja se a mensagem "Servidor rodando na porta 3000" aparece no console.
-        ☐ Abra o navegador e acesse http://localhost:3000. A mensagem 'Olá, visitante!' deve aparecer na tela.
+        ✔ Veja se a mensagem "Servidor rodando na porta 3000" aparece no console. @done(22-03-04 17:27)
+        ✔ Abra o navegador e acesse http://localhost:3000. A mensagem 'Olá, visitante!' deve aparecer na tela. @done(22-03-04 17:27)
 
 
         
 Fase 4 - Organizando o MVC:
-    ☐ Crie uma pasta chamada routes na raíz do projeto.
-    ☐ Na pasta routes, crie um arquivo chamado PizzasRouter.js
-    ☐ No arquivo PizzasRouter.js:
-        ☐ Importe o express.
-        ☐ Crie um roteador e armazene-o numa constante router
-        ☐ Exporte essa constante
+    ✔ Crie uma pasta chamada routes na raíz do projeto. @done(22-03-04 17:20)
+    ✔ Na pasta routes, crie um arquivo chamado PizzasRouter.js @done(22-03-04 17:21)
+    ✔ No arquivo PizzasRouter.js: @done(22-03-04 17:22)
+        ✔ Importe o express. @done(22-03-04 17:23)
+        ✔ Crie um roteador e armazene-o numa constante router @done(22-03-04 17:27)
+        ✔ Exporte essa constante @done(22-03-04 17:27)
 
-    ☐ No arquivo app.js importe o roteador recém criado para uma constante chamada PizzasRouter.
+    ✔ No arquivo app.js importe o roteador recém criado para uma constante chamada PizzasRouter. @done(22-03-04 17:34)
         Atente para que o uso do PizzasRouter ocorra depois da criação da
         aplicação mas antes da linha que iniciar.
-    ☐ Utilize o PizzasRouter como roteador da aplicação. Dica: app.use(____)
-    ☐ Crie uma pasta chamada controllers na raíz do projeto.
-    ☐ Na pasta controllers crie um arquivo chamado PizzasController.js
+    ✔ Utilize o PizzasRouter como roteador da aplicação. Dica: app.use(____) @done(22-03-07 14:28)
+    ✔ Crie uma pasta chamada controllers na raíz do projeto. @done(22-03-07 14:29)
+    ✔ Na pasta controllers crie um arquivo chamado PizzasController.js @done(22-03-07 14:30)
         Em passos a frente, o arquivo PizzasController.js irá conter as funções
         responsáveis por tratar da requisição e da resposta a ser enviada para o cliente.
         Essas funções chamaremos de controllers ou controladores.
-    ☐ No arquvo PizzasController.js crie um objeto literal vazio e o exporte utilizando o module.exports
-    ☐ Crie uma pasta chamada public.
-    ☐ Dentro da pasta public, crie duas pastas: css e img
-    ☐ Mova os arquivos que estão na pasta imagens para a pasta public/img
+    ✔ No arquvo PizzasController.js crie um objeto literal vazio e o exporte utilizando o module.exports @done(22-03-07 14:37)
+    ✔ Crie uma pasta chamada public. @done(22-03-07 14:37)
+    ✔ Dentro da pasta public, crie duas pastas: css e img @done(22-03-07 14:38)
+    ✔ Mova os arquivos que estão na pasta imagens para a pasta public/img @done(22-03-07 14:41)
     ☐ Remova a pasta imagens
     
     Verificações:
